@@ -30,7 +30,7 @@ const Comics = ({
       // console.log(filter);
       try {
         const response = await axios.get(
-          `http://localhost:3000/comics${filter}`
+          `https://site--marvel-backend--cqkrrjqcs6yr.code.run/comics${filter}`
         );
         // console.log(response.data);
         setData(response.data);

@@ -30,7 +30,7 @@ const Characters = ({
       // console.log(filter);
       try {
         const response = await axios.get(
-          `http://localhost:3000/characters${filter}`
+          `https://site--marvel-backend--cqkrrjqcs6yr.code.run/characters${filter}`
         );
         // console.log(response.data);
         // console.log(response.data.results);

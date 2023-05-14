@@ -14,7 +14,7 @@ const Character = () => {
     const DataComicCharacterId = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:3000/comics/${characterId}`
+          `https://site--marvel-backend--cqkrrjqcs6yr.code.run/comics/${characterId}`
         );
         // console.log(response.data);
         setData(response.data);
