@@ -16,10 +16,13 @@ const Login = ({ setDisplay, setToken }) => {
     navigate("/");
 
     try {
-      const response = await axios.post("http://localhost:3000/users/login", {
-        email,
-        password,
-      });
+      const response = await axios.post(
+        "https://site--marvel-backend--cqkrrjqcs6yr.code.run/users/login",
+        {
+          email,
+          password,
+        }
+      );
       console.log(response.data);
       if (response.data.token) {
         Cookies.set("tokenMarvel", response.data.token, { expires: 7 });

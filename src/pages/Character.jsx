@@ -16,7 +16,7 @@ const Character = () => {
         const response = await axios.get(
           `https://site--marvel-backend--cqkrrjqcs6yr.code.run/comics/${characterId}`
         );
-        // console.log(response.data);
+        console.log(response.data);
         setData(response.data);
         setIsLoading(false);
       } catch (error) {
