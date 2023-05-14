@@ -10,6 +10,7 @@ import "./App.css";
 //import components
 import Header from "./assets/components/Header";
 import Modal from "./assets/components/Modal";
+import Footer from "./assets/components/Footer";
 
 //import page
 import Characters from "./pages/Characters";
@@ -93,6 +94,7 @@ function App() {
           }
         />
       </Routes>
+      <Footer />
     </Router>
   );
 }
