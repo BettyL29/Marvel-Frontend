@@ -3,6 +3,7 @@ footer {
   color: white;
   height: 100px;
   width: 100vw;
+  z-index: 2;
 }
 
 footer-container {
