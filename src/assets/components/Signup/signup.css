@@ -1,0 +1,73 @@
+.modal-content {
+  text-align: center;
+  /* border: 1px solid red; */
+  height: fit-content;
+  width: 560px;
+  margin-top: 100px;
+  /* position: relative; */
+  padding: 30px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.modal-p {
+  font-size: 24px;
+  line-height: 20px;
+}
+
+.p-newsletter {
+  margin-bottom: 30px;
+  max-width: 500px;
+  font-size: 14px;
+  line-height: 20px;
+  /* border: 1px solid orange; */
+}
+
+input {
+  width: 280px;
+  height: 45px;
+  border: none;
+  border-bottom: 1px solid #f8ced3;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 30px 0;
+}
+.signup-close {
+  border: 2px solid red;
+  position: absolute;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  color: red;
+  background-color: white;
+  top: 90px;
+  right: 425px;
+}
+
+.newsletter {
+  /* border: 1px solid yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+}
+
+.submit {
+  width: 280px;
+  height: 45px;
+  /* border: 1px solid green; */
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: red;
+}
