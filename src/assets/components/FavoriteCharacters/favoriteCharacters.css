@@ -1,0 +1,76 @@
+.favorite-characters {
+  background-color: red;
+}
+
+.favorite-characters h2 {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.favorite-characters-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: flex-start;
+  padding: 50px;
+  background-color: red;
+}
+
+/* .favorite-characters-details {
+  width: 250px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+} */
+
+.favCharacter-details {
+  width: 250px;
+  height: fit-content;
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.favCharacter-details h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.favorite-characters-details p {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.favorite-characters-details-picture {
+  width: 200px;
+  height: 250px;
+}
+
+.favorite-characters-details-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.favorite-character-picture {
+  width: 200px;
+  height: 200px;
+}
+
+.favorite-character-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

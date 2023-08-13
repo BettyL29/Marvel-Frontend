@@ -1,0 +1,156 @@
+.hideFilter {
+  width: 120px;
+  height: 45px;
+  margin-bottom: 15px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hideFilter:hover {
+  cursor: pointer;
+  border: 1px solid red;
+}
+.filter-section {
+  display: flex;
+  gap: 20px;
+  width: 400px;
+  justify-content: center;
+}
+
+.pagination-tab {
+  color: rgb(188, 183, 183);
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.pagination-index {
+  width: 20px;
+  cursor: pointer;
+}
+
+.active-page {
+  font-weight: bold;
+  color: white;
+  /* font-size: 18px; */
+}
+
+.previous,
+.next {
+  cursor: pointer;
+}
+
+.pagination-index:hover,
+.previous:hover,
+.next:hover {
+  font-weight: bold;
+  color: white;
+  transform: scale(1.2);
+}
+
+.chevron-up-button {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  transform: translate(-50px, -20px);
+  cursor: pointer;
+}
+
+.chevron-up-button:hover {
+  background-color: red;
+  color: white;
+  border: 1px solid white;
+}
+
+.modal-section {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(189, 100, 100, 0.9);
+  z-index: 3;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-section-comic {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(189, 100, 100, 0.9);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 50%;
+  height: fit-content;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.right-div-modal p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.img-modal {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-modal img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  flex: 2;
+}
+
+.left-div-modal {
+  flex: 1;
+}
+
+.left-div-modal p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.comics-count-modal {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.comics-count-modal:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.close-icon-modal:hover {
+  cursor: pointer;
+  color: red;
+}
